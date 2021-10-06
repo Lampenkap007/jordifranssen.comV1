@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordi Franssen - Design & Development</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="projectStyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap" rel="stylesheet">
+    <link rel="icon" href="../img/logoBlack.png">
+</head>
+
+<body>
+    <div class="banner"></div>
+    <div id="hamburger" onclick="menuOpen()">
+        <div id="topLine"></div>
+        <div id="bottomLine"></div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="close" onclick="menuClose()">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+    </svg>
+    <div id="menu">
+        <div>
+            <a href="../index.html#">
+                <h2 onclick="menuClose()">Home</h2>
+            </a>
+            <a href="../index.html#slide2">
+                <h2 onclick="menuClose()">Over mij</h2>
+            </a>
+            <a href="../index.html#slide3">
+                <h2 onclick="menuClose()">Mijn werk</h2>
+            </a>
+            <a href="../index.html#slide4">
+                <h2 onclick="menuClose()">Contact</h2>
+            </a>
+            <a href="../doc/my-cv.pdf" target="_blank">
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-download">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>Download CV</p>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="projectContents">
+        <h1>Creating the virtual teaching interface</h1>
+        <img class="projectImg" src="img/Web 1920 – 18.png" alt="">
+
+        <p>Opdrachtgever: Instructure via FHICT <br> Periode: februari 2021 - juni 2021 <br><br>Let op! Work in progress
+        </p>
+
+        <h2>Inleiding en opdracht</h2>
+        <p>Online onderwijs is gedurende de hele coronacrisis de norm geweest. Tools als Microsoft Teams en Zoom hebben
+            ons hier goed mee geholpen, maar helemaal perfect was de online leservaring niet. Online onderwijs heeft zo
+            zijn nadelen maar ook zijn voordelen. Men gaat er daarom vanuit dat online onderwijs nooit helemaal weggaat
+            wanneer de pandemie voorbij is en alles terug naar “normaal” gaat. Daarom is het nodig dat de huidige online
+            leservaring wordt verbeterd naar een permanente vorm in plaats van tijdelijke oplossingen als Teams en Zoom.
+        </p>
+
+        <h2>Designchallenge</h2>
+        <p>Ontwerp en realiseer een platform in de vorm van een MVP waarmee de huidige online leservaring wordt
+            verbeterd zodat online lesgeven voor docenten makkelijker wordt en de lessen interessanter worden voor de
+            leerlingen.</p>
+
+        <h2>Onderzoek en inzichten</h2>
+        <p>Het project heeft twee doelgroepen: HBO docenten en HBO studenten. Aangezien onze projectgroep maar twee man
+            groot is hebben we één doelgroep per persoon onderzocht. Ik heb onderzoek gedaan naar de pijnpunten van
+            docenten in het online onderwijs. Hiervoor heb ik meerdere interviews uitgevoerd. Belangrijkste inzichten
+            waren:</p>
+        <ul>
+            <li>
+                Docenten missen de spontaniteit van het fysiek lesgeven. Even vlug iets aan een collega vragen is niet
+                mogelijk, omdat voor elk gesprek apart een meeting moet worden ingepland. Docenten willen dus graag op
+                een makkelijkere manier met iemand in contact kunnen komen.
+            </li>
+            <br>
+            <li>
+                Op een creatieve opleiding wordt veel gebruik gemaakt van verschillende brainstormtechnieken. Deze zijn
+                online veel moeilijker uit te voeren dan in een fysieke les. Docenten willen dus ook online graag op een
+                interactieve manier kunnen brainstormen, net zoals in een fysieke les.
+            </li>
+            <br>
+        </ul>
+
+        <h2>Concept en ontwerp</h2>
+        <p>Om docenten makkelijker te verbinden met collega’s heb ik gekeken naar andere oplossingen. Tools als Discord
+            gebruiken kanalen in plaats van geplande meetings. Met één klik op de knop neem je deel aan een kanaal en
+            ben je via spraak verbonden met de deelnemers van dat kanaal. In Teams werkt alleen de chatfunctie zo. De
+            lijst links heeft bevat al je chats. Met een klik op de knop open je dus alleen de chat. In mijn concept
+            open je met één klik ook gelijk een videoverbinding.</p>
+        <p>Om verschillende brainstormtechnieken mogelijk te maken in een online les, heb ik onderzoek gedaan naar
+            brainstormtechnieken die eventueel te digitaliseren zijn. Neem bijvoorbeeld de step-ladder methode waarbij
+            iedere deelnemer de ruimte moet verlaten op twee deelnemers na. Om de beurt wordt iedereen terug geroepen en
+            mag een idee delen. Dit voorkomt dat er deelnemers zijn die niet aan het woord komen om een idee te delen.
+            Hier zou een digitale versie van te maken zijn door iedereen, op twee personen na, tijdelijk uit de meeting
+            te halen en een voor een weer terug te roepen.</p>
+        <p>Voor het ontwerp heb ik de designguidlines van Canvas moeten gebruiken aangezien de oplossing een extensie
+            wordt van Canvas. Hiermee heb ik in Adobe XD een ontwerp gemaakt waar verschillende keren feedback van
+            docenten op is toegepast en verschillende usertests mee zijn uitgevoerd.</p>
+        <h2>Realisatie</h2>
+        <p>Om een oplossing te bieden op de designchallenge heb ik een MVP (minimum viable product) gemaakt waar ik het
+            concept en ontwerp in kan realiseren. Mijn MVP bestaat uit drie delen:</p>
+        <p>Een API waar alle data in is opgeslagen als inloggegevens, chatberichten etc. Ik heb een REST-API gemaakt met
+            een MongoDB database. De database bestaat uit twee collecties: gebruikersgegevens en gegevens over de
+            verschillende chatrooms. <br> <br>
+            Github: <a href="https://github.com/Lampenkap007/VTI_API" target="_blank">Creating the virtual teaching
+                interface API</a></p>
+        <p>Een inlogsysteem. Elke gebruiker heeft zijn eigen gepersonaliseerde pagina nodig. Hiervoor heb ik een
+            inlogsysteem gemaakt dat werkt met de API. Wachtwoorden worden uiteraard veilig gehashed opgeslagen in de
+            database</p>
+        <p>Een pagina met de verschillende chatrooms. In de chatrooms staan dingen als de chat, de videoverbinding en de
+            brainstormtool.</p>
+        <p>Alle delen zijn gemaakt met NodeJS</p>
+    </div>
+    <script src="../js.js"></script>
+</body>
+
+</html>

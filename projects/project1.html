@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordi Franssen - Design & Development</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="projectStyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap" rel="stylesheet">
+    <link rel="icon" href="../img/logoBlack.png">
+</head>
+
+<body>
+    <div class="banner"></div>
+    <div id="hamburger" onclick="menuOpen()">
+        <div id="topLine"></div>
+        <div id="bottomLine"></div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="close" onclick="menuClose()">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+    </svg>
+    <div id="menu">
+        <div>
+            <a href="../index.html#">
+                <h2 onclick="menuClose()">Home</h2>
+            </a>
+            <a href="../index.html#slide2">
+                <h2 onclick="menuClose()">Over mij</h2>
+            </a>
+            <a href="../index.html#slide3">
+                <h2 onclick="menuClose()">Mijn werk</h2>
+            </a>
+            <a href="../index.html#slide4">
+                <h2 onclick="menuClose()">Contact</h2>
+            </a>
+            <a href="../doc/my-cv.pdf" target="_blank">
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-download">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>Download CV</p>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="projectContents">
+        <h1>Personal website</h1>
+        <img class="projectImg" src="../img/home.jpg" alt="">
+        <p>Mijn eigen website is de eerste website die ik helemaal zelf heb ontworpen, getest en heb gerealiseerd. Ik
+            heb deze site gemaakt zodat mensen op een makkelijke manier informatie over mij kunnen vinden. In de website
+            presenteer ik mezelf, vertel ik wat ik doe en laat ik de projecten zien waar ik het meest trots op ben.</p>
+        <p>Ik heb deze website als project voor mijn studie kunnen maken. Hiervoor heb ik onderzoek gedaan naar welke
+            informatie in de website moet en hoe die informatie gepresenteerd moet worden. Vervolgens heb ik een ontwerp
+            en prototype gemaakt in Adobe XD. Het prototype is getest door een aantal gebruikers en zo heb ik er nog een
+            aantal interactiefoutjes uit kunnen halen. Tot slot heb ik de site gerealiseerd. Hiervoor heb ik alleen nog
+            maar HTML, CSS en Javascript gebruikt. In de toekomst wil ik frameworks als Vue.js en Wordpress onder de
+            knie krijgen. Zodra ik deze technieken beheers, pas ik ze toe in mijn website. Zo representeert de website
+            altijd mijn skills op het gebied van webdevelopment.</p>
+    </div>
+    <script src="../js.js"></script>
+</body>
+
+</html>
